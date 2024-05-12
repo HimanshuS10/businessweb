@@ -1,0 +1,1005 @@
+
+@media only screen and (min-width: 1280px) {
+
+
+    body {
+        background-color: rgb(224, 0, 0);
+    }
+
+    .hero {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar {
+        margin: auto;
+        text-align: center;
+        padding: 1em;
+        word-spacing: 5em;
+    }
+
+    .navbar a {
+        color: rgb(22, 84, 255);
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .title {
+        color: white;
+    }
+
+    .title h1 {
+        font-family: mont;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    }
+
+    .title p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .video {
+        text-align: center;
+        margin-top: -38em;
+    }
+
+    iframe {
+        width: 1200px;
+        height: 480px;
+        border-radius: 100px;
+    }
+
+    .bookcall {
+        display: flex;
+        margin: auto;
+        height: 80px;
+        width: 854px;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .bookcall h1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .CTA-button :hover {
+        background-color: rgb(0, 89, 255);
+    }
+
+    .about_title {
+        margin-top: 2em;
+        text-align: center;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .about {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .box {
+        margin: auto;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 47%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+        text-align: center;
+    }
+
+    .box h1 {
+        text-align: center;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+
+    .box p {
+        font-size: 20px;
+        color: aliceblue;
+    }
+
+    .owner {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .owner_box {
+        margin: auto;
+        display: flex;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 97%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+    }
+
+    .text {
+        font-size: 20px;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        color: aliceblue;
+    }
+
+    .owner_img img {
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .list p {
+        background-color: rgb(0, 38, 255);
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .service_title {
+        text-align: center;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .service {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .service_box {
+        margin: auto;
+        display: flex;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 97%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+    }
+
+    .service_1 {
+        margin: auto;
+        background-color: rgb(0, 89, 255);
+        height: 80%;
+        width: 47%;
+        border-radius: 50px;
+        box-shadow: 4px 4px 8px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .service_2 {
+        margin: auto;
+        background-color: rgb(0, 89, 255);
+        height: 80%;
+        width: 47%;
+        border-radius: 50px;
+        box-shadow: 4px 4px 8px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .learnmore button {
+        margin-top: 2em;
+        display: flex;
+        height: 80px;
+        width: 1225px;
+        border-radius: 30px;
+        background-color: rgb(64, 131, 255);
+
+    }
+
+
+}
+
+
+/* This part of css is for laptop screen */
+@media only screen and (max-width: 1280px) {
+
+    body {
+        background-color: rgb(2, 2, 4);
+    }
+
+    .hero {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar {
+        margin: auto;
+        text-align: center;
+        padding: 1em;
+        word-spacing: 5em;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .title {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .title h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        text-shadow: 3px 3px 3px rgb(40, 40, 41);
+    }
+
+    .title p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .video {
+        text-align: center;
+        margin-top: -8em;
+    }
+
+    iframe {
+        width: 900px;
+        height: 480px;
+        border-radius: 30px;
+    }
+
+    .bookcall {
+        display: flex;
+        margin: auto;
+        height: 60px;
+        width: 854px;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .bookcall h1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .CTA-button :hover {
+        opacity: 70%;
+        background-color: rgb(0, 89, 255);
+    }
+
+    .about_title {
+        margin-top: 2em;
+        text-align: center;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .about {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .box {
+        margin: auto;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 47%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+        text-align: center;
+    }
+
+    .box h1 {
+        text-align: center;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+
+    .box p {
+        font-size: 17px;
+        color: aliceblue;
+    }
+
+    .owner {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .owner_box {
+        margin: auto;
+        display: flex;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 97%;
+        border-radius: 50px;
+        padding-left: 2em;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+    }
+
+    .owner h1 {
+        font-size: 30px;
+        padding-top: 1em;
+    }
+
+    .text {
+        font-size: 18px;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        color: aliceblue;
+    }
+
+    .owner_img img {
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .list p {
+        background-color: rgb(0, 38, 255);
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .service_title {
+        text-align: center;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .service {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .service_box {
+        margin: auto;
+        display: flex;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 97%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+    }
+
+    .service_1 {
+        margin: auto;
+        background-color: rgb(0, 89, 255);
+        height: 80%;
+        width: 47%;
+        border-radius: 50px;
+        box-shadow: 4px 4px 8px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .service_1 img {
+        width: 33%;
+    }
+
+    .service_image :hover {
+        opacity: 80%;
+    }
+
+    .service_1 h1 {
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    }
+
+    .service_1 p {
+        margin-bottom: 2px;
+    }
+
+    .service_1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+
+    .learnmore_link a :hover {
+        text-decoration: underline;
+    }
+
+    .service_2 {
+        margin: auto;
+        background-color: rgb(0, 89, 255);
+        height: 80%;
+        width: 47%;
+        border-radius: 50px;
+        box-shadow: 4px 4px 8px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .service_2 h1 {
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    }
+
+    .service_2 p {
+        margin-bottom: 2px;
+    }
+
+    .service_2 img {
+        width: 33%;
+    }
+
+    .service_2 a {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+
+    .learnmore button {
+        margin-top: 2em;
+        display: flex;
+        height: 80px;
+        width: 1225px;
+        border-radius: 30px;
+        background-color: rgb(64, 131, 255);
+
+    }
+
+    .CTA {
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 8em;
+    }
+
+    .CTA_title {
+        margin: auto;
+        text-align: center;
+        color: aliceblue;
+        font-size: 25px;
+        padding-top: -5em;
+        padding-bottom: -3em;
+    }
+
+    .calendly-inline-widget {
+        margin: auto;
+        width: 100%;
+        max-width: 100vh;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer {
+        background: #222222;
+        padding-top: 50px;
+    }
+
+    .container {
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-content {
+        width: 33.3%;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    .footer-content p {
+        width: 190px;
+        margin: auto;
+        padding: 7px;
+        color: white;
+    }
+
+    .footer-content ul {
+        text-align: center;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .list li {
+        width: auto;
+        text-align: center;
+        list-style-type: none;
+        padding: 7px;
+        position: relative;
+        text-decoration: none;
+        color: white;
+    }
+
+    .list li::before {
+        content: '';
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #fdfdfd;
+        transition-duration: .5s;
+    }
+
+    .list li:hover::before {
+        width: 70px;
+    }
+
+    .social-icons {
+        text-align: center;
+        padding: 0;
+    }
+
+    .social-icons li {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .social-icons i {
+        color: white;
+        font-size: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: rgb(64, 131, 255);
+    }
+
+    .social-icons i:hover {
+        color: rgb(64, 131, 255);
+    }
+
+    .bottom-bar {
+        background: rgb(0, 89, 255);
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+
+    .bottom-bar p {
+        color: #222222;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+
+    .link :hover {
+        color: rgb(255, 255, 255);
+    }
+
+}
+
+
+
+
+ABove is the desktop and monitor css
+________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body {
+        background-color: rgb(2, 2, 4);
+    }
+
+    .hero {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar {
+        margin: auto;
+        text-align: center;
+        padding: 1em;
+        word-spacing: 2em;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .title {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .title h1 {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        text-shadow: 3px 3px 3px rgb(40, 40, 41);
+    }
+
+    .title p {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .video {
+        text-align: center;
+        margin-top: -30em;
+    }
+
+    iframe {
+        width: 90%;
+        height: calc(90vh * 6 / 19);
+        max-height: 300px;
+        /* Limiting the height to 199px */
+        border-radius: 15px;
+        margin: auto;
+    }
+
+    .bookcall {
+        display: flex;
+        margin: auto;
+        height: 40px;
+        width: 154px;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .bookcall h1 {
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+    }
+
+    img {
+        margin-top: 1em;
+        height: 240px;
+        width: 254px
+    }
+
+    .about_title {
+        margin-top: 2em;
+        text-align: center;
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+    .about {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        margin: auto;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 90%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+        margin: 1em;
+        text-align: center;
+    }
+
+    .box h1 {
+        text-align: center;
+        color: aliceblue;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .box p {
+        font-size: 10px;
+        padding: 1em;
+        color: rgb(255, 255, 255);
+    }
+
+    .Code {
+        width: 100px;
+        height: 100px;
+    }
+
+    .owner_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(32, 32, 32);
+        height: 90%;
+        width: 90%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+    }
+
+    .owner h1 {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 10px;
+        text-align: center;
+        padding: 0.5em;
+        color: aliceblue;
+    }
+
+    .owner_img img {
+        border-radius: 50px;
+    }
+
+    .service_title {
+        text-align: center;
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+    .service {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .service_box {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        background-color: rgb(32, 32, 32);
+        height: 200%;
+        width: 90%;
+        border-radius: 50px;
+        box-shadow: 3px 3px 10px rgb(0, 89, 255);
+    }
+
+    .service_1 {
+        background-color: rgb(0, 89, 255);
+        height: 23%;
+        width: 85%;
+        border-radius: 50px;
+        box-shadow: 4px 4px 8px rgb(0, 0, 0);
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    .service_1 img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .service_image :hover {
+        opacity: 80%;
+    }
+
+    .service_1 h1 {
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    }
+
+    .service_1 p {
+        margin-bottom: 2px;
+    }
+
+    .service_1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+
+    .learnmore_link a :hover {
+        text-decoration: underline;
+    }
+
+    .service_2 {
+        margin: auto;
+        background-color: rgb(0, 89, 255);
+        height: 23%;
+        width: 85%;
+        border-radius: 50px;
+        box-shadow: 4px 4px 8px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .service_2 h1 {
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    }
+
+    .service_2 p {
+        margin-bottom: 2px;
+    }
+
+    .service_2 img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .service_2 a {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+
+    .learnmore button {
+        margin-top: 2em;
+        display: flex;
+        height: 80px;
+        width: 1225px;
+        border-radius: 30px;
+        background-color: rgb(64, 131, 255);
+
+    }
+
+    .CTA {
+        height: 100vh;
+        width: 100%;
+        margin: 10em;
+        margin-bottom: 8em;
+    }
+
+    .CTA_title {
+        margin: auto;
+        text-align: center;
+        color: aliceblue;
+        font-size: 15px;
+        padding-top: 47em;
+        margin: 1em;
+    }
+
+    .calendly-inline-widget {
+        margin: auto;
+        align-items: center;
+        max-width: 90%;
+        height: 90%;
+        padding: 1em;
+    }
+
+    footer {
+        background: #222222;
+        padding-top: 50px;
+    }
+
+    .container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    .footer-content p {
+        margin: auto;
+        text-align: center;
+        padding: 7px;
+        color: white;
+    }
+
+    .footer-content ul {
+        text-align: center;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .list li {
+        width: auto;
+        text-align: center;
+        list-style-type: none;
+        padding: 7px;
+        position: relative;
+        text-decoration: none;
+        color: white;
+    }
+
+    .list li::before {
+        content: '';
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #fdfdfd;
+        transition-duration: .5s;
+    }
+
+    .list li:hover::before {
+        width: 70px;
+    }
+
+    .social-icons {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .social-icons img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .social-icons li {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .social-icons i {
+        color: white;
+        font-size: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: rgb(64, 131, 255);
+    }
+
+    .social-icons i:hover {
+        color: rgb(64, 131, 255);
+    }
+
+    .bottom-bar {
+        background: rgb(0, 89, 255);
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+
+    .bottom-bar p {
+        color: #222222;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+
+    .link :hover {
+        color: rgb(255, 255, 255);
+    }
